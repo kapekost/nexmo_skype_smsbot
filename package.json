@@ -1,0 +1,31 @@
+{
+  "name": "nexmo_skype_smsbot",
+  "version": "1.0.0",
+  "description": "skype bot sending sms messages using nexmo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapekost/nexmo_skype_smsbot.git"
+  },
+  "keywords": [
+    "nexmo",
+    "bot",
+    "skype",
+    "sms"
+  ],
+  "author": "Kostas Kapetanakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kapekost/nexmo_skype_smsbot/issues"
+  },
+  "homepage": "https://github.com/kapekost/nexmo_skype_smsbot#readme",
+  "dependencies": {
+    "botbuilder": "^3.1.0",
+    "nexmo": "^1.0.0-beta-7",
+    "restify": "^4.1.1",
+    "skype-sdk": "file:skype-sdk.tar.gz"
+  }
+}
